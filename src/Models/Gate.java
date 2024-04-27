@@ -5,6 +5,15 @@ public class Gate extends BaseModel{
     private Operator operator;
     private GateStatus status;
     private GateType gateType;
+    private ParkingLot parkingLot;
+
+    public ParkingLot getParkingLot() {
+        return parkingLot;
+    }
+
+    public void setParkingLot(ParkingLot parkingLot) {
+        this.parkingLot = parkingLot;
+    }
 
     public int getGatenum() {
         return gatenum;
